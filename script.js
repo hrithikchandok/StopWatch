@@ -39,7 +39,7 @@ function handlebtn(event) {
         timer.innerHTML = `${Math.floor(hrs / 10) > 0 ? hrs : "0" + hrs}:${
           Math.floor(min / 10) > 0 ? min : "0" + min
         }:${Math.floor(seconds / 10) > 0 ? seconds : "0" + seconds}`;
-      }, 10);
+      }, 100);
     }
   } else if (btn_id == "btn2") {
     clearInterval(id);
@@ -74,7 +74,7 @@ function handlebtn(event) {
         timer.innerHTML = `${Math.floor(hrs / 10) > 0 ? hrs : "0" + hrs}:${
           Math.floor(min / 10) > 0 ? min : "0" + min
         }:${Math.floor(seconds / 10) > 0 ? seconds : "0" + seconds}`;
-      }, 10);
+      }, 100);
     }
   }
 }
